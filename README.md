@@ -1,4 +1,4 @@
-# Run a dashbord visualization using Bokeh
+# Run a dashbord visualization
 ## Scripts:
 result.py: generate graphs using latimes-state-totals.csv and cdph-race-ethnicity.csv
 ## Instructions:
