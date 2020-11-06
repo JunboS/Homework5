@@ -19,13 +19,12 @@ We will use pip in this tutorial
    testenv is the name of your new virtual environment:  
 4. activate the evnironment by running:  
         `.\testenv\Scripts\activate`  
-5. install the required packages:
-        `pip install pandas`  
-        `pip install bokeh`  
+5. install the required dependencies:
+        `pip install -r requirements.txt`   
 ### Execute the scripts  
 1. by running:  
-    `bokeh serve result.py`  
-    copy the link (Bokeh app running at: http://localhost:5006/result) and paste it into your browser  
+    `bokeh serve --show result.py`  
+    your browser should be opened 
     `http://localhost:5006/result`  
     to exit:  
     press `ctrl + c` in your terminal  
