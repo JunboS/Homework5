@@ -3,7 +3,7 @@
 result.py: generate graphs using latimes-state-totals.csv and cdph-race-ethnicity.csv
 ## Instructions:
 ### Download files
-1. Download result.py, latimes-state-totals.csv and cdph-race-ethnicity.csv to a folder  
+1. Download this repository  
 2. Open your terminal and redirect to the folder you downloaded
         `cd your\folder\location`
 ### Create a virtual environment
