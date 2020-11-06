@@ -24,7 +24,7 @@ We will use pip in this tutorial
         `source hw5/bin/activate`  
 5. install the required dependencies:  
         `pip install -r requirements.txt`   
-### Execute the scripts  
+### Execute using Bokeh
 1. by running:  
     `bokeh serve --show result.py`  
     your browser should be opened  
@@ -36,5 +36,7 @@ We will use pip in this tutorial
     `docker build --tag hw5 .`  
 2. Run the image by running:  
     `docker run -p 5006:5006 -it hw5`  
+    your browser should be opened  
+    `http://localhost:5006/result`  
 3. when you are done, stop the virtual environment by running:  
          `deactivate`  
