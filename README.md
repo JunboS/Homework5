@@ -19,7 +19,7 @@ We will use pip in this tutorial
    testenv is the name of your new virtual environment:  
 4. activate the evnironment by running:  
         `.\testenv\Scripts\activate`  
-5. install the required dependencies:
+5. install the required dependencies:  
         `pip install -r requirements.txt`   
 ### Execute the scripts  
 1. by running:  
