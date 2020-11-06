@@ -15,18 +15,26 @@ We will use pip in this tutorial
 2. install virtualenv by running:  
         `pip install virtualenv`  
 3. create a virtual environment by running:  
-        `py -m venv testenv`  
-   testenv is the name of your new virtual environment:  
-4. activate the evnironment by running:  
-        `.\testenv\Scripts\activate`  
+        `py -m venv hw5`  
+   hw5 is the name of your new virtual environment:  
+4. activate the evnironment by running: 
+        Windows  
+        `.\hw5\Scripts\activate`  
+        Mac  
+        `source hw5/bin/activate`  
 5. install the required dependencies:  
         `pip install -r requirements.txt`   
 ### Execute the scripts  
 1. by running:  
     `bokeh serve --show result.py`  
-    your browser should be opened 
+    your browser should be opened  
     `http://localhost:5006/result`  
     to exit:  
     press `ctrl + c` in your terminal  
-2. when you are done, stop the virtual environment by running:  
+### Use Docker
+1. Build the docker by running:  
+    `docker build --tag hw5 .`  
+2. Run the image by running:  
+    `docker run -p 5006:5006 -it hw5`  
+3. when you are done, stop the virtual environment by running:  
          `deactivate`  
